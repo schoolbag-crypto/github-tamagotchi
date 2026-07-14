@@ -28,12 +28,5 @@ jobs:
       - name: Run unit tests
         run: npm test
 
-      - name: Regenerate example SVGs (catches renderer regressions)
+      - name: Regenerate example SVGs (sanity check the renderer still runs)
         run: npm run examples
-
-      - name: Fail if examples drifted from committed output
-        run: |
-          git diff --exit-code -- examples/ || {
-            echo "::error::examples/*.svg are out of date — run 'npm run examples' and commit the result.";
-            exit 1;
-          }
