@@ -1,6 +1,6 @@
 <svg width="320" height="216" viewBox="0 0 320 216" xmlns="http://www.w3.org/2000/svg" role="img">
-  <title>schoolbag-crypto the Sprout — Baby, idle</title>
-  <desc>Active today!</desc>
+  <title>schoolbag-crypto the Byte — Growing, proud</title>
+  <desc>Sprout stretches out, grows a tail, and start…</desc>
   <defs>
     <radialGradient id="glow" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#ffe9a8" stop-opacity="0.9" />
@@ -17,48 +17,159 @@
   </defs>
  
   <g clip-path="url(#panelClip)">
-    <rect x="0" y="0" width="320" height="216" fill="#f4f9ff" />
+    <rect x="0" y="0" width="320" height="216" fill="#fff1d6" />
     
  
     <g>
       <g transform="translate(0,0)">
-        <animateTransform attributeName="transform" type="translate"
-      values="0 0; 0 -2.2; 0 0" dur="2.4s" repeatCount="indefinite" additive="sum" />
+        <animateTransform attributeName="transform" type="scale"
+      values="1,1;1.08,0.92;0.95,1.08;1,1" dur="0.6s" repeatCount="indefinite"
+      additive="sum" />
         
-        <rect x="137.27" y="33.09" width="9.09" height="9.09" fill="#fce159" /><rect x="146.36" y="33.09" width="9.09" height="9.09" fill="#fce159" /><rect x="155.45" y="33.09" width="9.09" height="9.09" fill="#fce159" /><rect x="164.55" y="33.09" width="9.09" height="9.09" fill="#fce159" /><rect x="173.64" y="33.09" width="9.09" height="9.09" fill="#fce159" /><rect x="128.18" y="42.18" width="9.09" height="9.09" fill="#fce159" /><rect x="137.27" y="42.18" width="9.09" height="9.09" fill="#e0c53d" /><rect x="146.36" y="42.18" width="9.09" height="9.09" fill="#e0c53d" /><rect x="155.45" y="42.18" width="9.09" height="9.09" fill="#e0c53d" /><rect x="164.55" y="42.18" width="9.09" height="9.09" fill="#e0c53d" /><rect x="173.64" y="42.18" width="9.09" height="9.09" fill="#e0c53d" /><rect x="182.73" y="42.18" width="9.09" height="9.09" fill="#fce159" /><rect x="119.09" y="51.27" width="9.09" height="9.09" fill="#fce159" /><rect x="128.18" y="51.27" width="9.09" height="9.09" fill="#e0c53d" /><rect x="137.27" y="51.27" width="9.09" height="9.09" fill="#e0c53d" /><rect x="146.36" y="51.27" width="9.09" height="9.09" fill="#e0c53d" /><rect x="155.45" y="51.27" width="9.09" height="9.09" fill="#e0c53d" /><rect x="164.55" y="51.27" width="9.09" height="9.09" fill="#e0c53d" /><rect x="173.64" y="51.27" width="9.09" height="9.09" fill="#e0c53d" /><rect x="182.73" y="51.27" width="9.09" height="9.09" fill="#e0c53d" /><rect x="191.82" y="51.27" width="9.09" height="9.09" fill="#fce159" /><rect x="119.09" y="60.36" width="9.09" height="9.09" fill="#e0c53d" /><rect x="128.18" y="60.36" width="9.09" height="9.09" fill="#e0c53d" /><rect x="137.27" y="60.36" width="9.09" height="9.09" fill="#e0c53d" /><rect x="146.36" y="60.36" width="9.09" height="9.09" fill="#e0c53d" /><rect x="155.45" y="60.36" width="9.09" height="9.09" fill="#e0c53d" /><rect x="164.55" y="60.36" width="9.09" height="9.09" fill="#e0c53d" /><rect x="173.64" y="60.36" width="9.09" height="9.09" fill="#e0c53d" /><rect x="182.73" y="60.36" width="9.09" height="9.09" fill="#e0c53d" /><rect x="191.82" y="60.36" width="9.09" height="9.09" fill="#e0c53d" /><rect x="119.09" y="69.45" width="9.09" height="9.09" fill="#e0c53d" /><rect x="128.18" y="69.45" width="9.09" height="9.09" fill="#e0c53d" /><rect x="137.27" y="69.45" width="9.09" height="9.09" fill="#e0c53d" /><rect x="146.36" y="69.45" width="9.09" height="9.09" fill="#e0c53d" /><rect x="155.45" y="69.45" width="9.09" height="9.09" fill="#e0c53d" /><rect x="164.55" y="69.45" width="9.09" height="9.09" fill="#e0c53d" /><rect x="173.64" y="69.45" width="9.09" height="9.09" fill="#e0c53d" /><rect x="182.73" y="69.45" width="9.09" height="9.09" fill="#e0c53d" /><rect x="191.82" y="69.45" width="9.09" height="9.09" fill="#e0c53d" /><rect x="119.09" y="78.55" width="9.09" height="9.09" fill="#c4a921" /><rect x="128.18" y="78.55" width="9.09" height="9.09" fill="#e0c53d" /><rect x="137.27" y="78.55" width="9.09" height="9.09" fill="#e0c53d" /><rect x="146.36" y="78.55" width="9.09" height="9.09" fill="#e0c53d" /><rect x="155.45" y="78.55" width="9.09" height="9.09" fill="#e0c53d" /><rect x="164.55" y="78.55" width="9.09" height="9.09" fill="#e0c53d" /><rect x="173.64" y="78.55" width="9.09" height="9.09" fill="#e0c53d" /><rect x="182.73" y="78.55" width="9.09" height="9.09" fill="#e0c53d" /><rect x="191.82" y="78.55" width="9.09" height="9.09" fill="#c4a921" /><rect x="128.18" y="87.64" width="9.09" height="9.09" fill="#c4a921" /><rect x="137.27" y="87.64" width="9.09" height="9.09" fill="#e0c53d" /><rect x="146.36" y="87.64" width="9.09" height="9.09" fill="#e0c53d" /><rect x="155.45" y="87.64" width="9.09" height="9.09" fill="#e0c53d" /><rect x="164.55" y="87.64" width="9.09" height="9.09" fill="#e0c53d" /><rect x="173.64" y="87.64" width="9.09" height="9.09" fill="#e0c53d" /><rect x="182.73" y="87.64" width="9.09" height="9.09" fill="#c4a921" /><rect x="137.27" y="96.73" width="9.09" height="9.09" fill="#c4a921" /><rect x="146.36" y="96.73" width="9.09" height="9.09" fill="#c4a921" /><rect x="155.45" y="96.73" width="9.09" height="9.09" fill="#c4a921" /><rect x="164.55" y="96.73" width="9.09" height="9.09" fill="#c4a921" /><rect x="173.64" y="96.73" width="9.09" height="9.09" fill="#c4a921" /><rect x="137.27" y="105.82" width="9.09" height="9.09" fill="#ccb129" /><rect x="173.64" y="105.82" width="9.09" height="9.09" fill="#ccb129" />
-        <circle cx="123.63636363636364" cy="74.00000000000001" r="5.000000000000001" fill="#ff9a9a" opacity="0.35" /><circle cx="196.36363636363635" cy="74.00000000000001" r="5.000000000000001" fill="#ff9a9a" opacity="0.35" />
+        <rect x="133.08" y="31.69" width="7.69" height="7.69" fill="#fce159" /><rect x="140.77" y="31.69" width="7.69" height="7.69" fill="#fce159" /><rect x="148.46" y="31.69" width="7.69" height="7.69" fill="#fce159" /><rect x="156.15" y="31.69" width="7.69" height="7.69" fill="#fce159" /><rect x="163.85" y="31.69" width="7.69" height="7.69" fill="#fce159" /><rect x="171.54" y="31.69" width="7.69" height="7.69" fill="#fce159" /><rect x="179.23" y="31.69" width="7.69" height="7.69" fill="#fce159" /><rect x="125.38" y="39.38" width="7.69" height="7.69" fill="#fce159" /><rect x="133.08" y="39.38" width="7.69" height="7.69" fill="#e0c53d" /><rect x="140.77" y="39.38" width="7.69" height="7.69" fill="#e0c53d" /><rect x="148.46" y="39.38" width="7.69" height="7.69" fill="#e0c53d" /><rect x="156.15" y="39.38" width="7.69" height="7.69" fill="#e0c53d" /><rect x="163.85" y="39.38" width="7.69" height="7.69" fill="#e0c53d" /><rect x="171.54" y="39.38" width="7.69" height="7.69" fill="#e0c53d" /><rect x="179.23" y="39.38" width="7.69" height="7.69" fill="#e0c53d" /><rect x="186.92" y="39.38" width="7.69" height="7.69" fill="#fce159" /><rect x="125.38" y="47.08" width="7.69" height="7.69" fill="#e0c53d" /><rect x="133.08" y="47.08" width="7.69" height="7.69" fill="#e0c53d" /><rect x="140.77" y="47.08" width="7.69" height="7.69" fill="#e0c53d" /><rect x="148.46" y="47.08" width="7.69" height="7.69" fill="#e0c53d" /><rect x="156.15" y="47.08" width="7.69" height="7.69" fill="#e0c53d" /><rect x="163.85" y="47.08" width="7.69" height="7.69" fill="#e0c53d" /><rect x="171.54" y="47.08" width="7.69" height="7.69" fill="#e0c53d" /><rect x="179.23" y="47.08" width="7.69" height="7.69" fill="#e0c53d" /><rect x="186.92" y="47.08" width="7.69" height="7.69" fill="#e0c53d" /><rect x="117.69" y="54.77" width="7.69" height="7.69" fill="#fce159" /><rect x="125.38" y="54.77" width="7.69" height="7.69" fill="#e0c53d" /><rect x="133.08" y="54.77" width="7.69" height="7.69" fill="#e0c53d" /><rect x="140.77" y="54.77" width="7.69" height="7.69" fill="#e0c53d" /><rect x="148.46" y="54.77" width="7.69" height="7.69" fill="#e0c53d" /><rect x="156.15" y="54.77" width="7.69" height="7.69" fill="#e0c53d" /><rect x="163.85" y="54.77" width="7.69" height="7.69" fill="#e0c53d" /><rect x="171.54" y="54.77" width="7.69" height="7.69" fill="#e0c53d" /><rect x="179.23" y="54.77" width="7.69" height="7.69" fill="#e0c53d" /><rect x="186.92" y="54.77" width="7.69" height="7.69" fill="#e0c53d" /><rect x="194.62" y="54.77" width="7.69" height="7.69" fill="#fce159" /><rect x="117.69" y="62.46" width="7.69" height="7.69" fill="#e0c53d" /><rect x="125.38" y="62.46" width="7.69" height="7.69" fill="#e0c53d" /><rect x="133.08" y="62.46" width="7.69" height="7.69" fill="#e0c53d" /><rect x="140.77" y="62.46" width="7.69" height="7.69" fill="#e0c53d" /><rect x="148.46" y="62.46" width="7.69" height="7.69" fill="#e0c53d" /><rect x="156.15" y="62.46" width="7.69" height="7.69" fill="#e0c53d" /><rect x="163.85" y="62.46" width="7.69" height="7.69" fill="#e0c53d" /><rect x="171.54" y="62.46" width="7.69" height="7.69" fill="#e0c53d" /><rect x="179.23" y="62.46" width="7.69" height="7.69" fill="#e0c53d" /><rect x="186.92" y="62.46" width="7.69" height="7.69" fill="#e0c53d" /><rect x="194.62" y="62.46" width="7.69" height="7.69" fill="#e0c53d" /><rect x="117.69" y="70.15" width="7.69" height="7.69" fill="#e0c53d" /><rect x="125.38" y="70.15" width="7.69" height="7.69" fill="#e0c53d" /><rect x="133.08" y="70.15" width="7.69" height="7.69" fill="#e0c53d" /><rect x="140.77" y="70.15" width="7.69" height="7.69" fill="#e0c53d" /><rect x="148.46" y="70.15" width="7.69" height="7.69" fill="#e0c53d" /><rect x="156.15" y="70.15" width="7.69" height="7.69" fill="#e0c53d" /><rect x="163.85" y="70.15" width="7.69" height="7.69" fill="#e0c53d" /><rect x="171.54" y="70.15" width="7.69" height="7.69" fill="#e0c53d" /><rect x="179.23" y="70.15" width="7.69" height="7.69" fill="#e0c53d" /><rect x="186.92" y="70.15" width="7.69" height="7.69" fill="#e0c53d" /><rect x="194.62" y="70.15" width="7.69" height="7.69" fill="#e0c53d" /><rect x="117.69" y="77.85" width="7.69" height="7.69" fill="#c4a921" /><rect x="125.38" y="77.85" width="7.69" height="7.69" fill="#e0c53d" /><rect x="133.08" y="77.85" width="7.69" height="7.69" fill="#e0c53d" /><rect x="140.77" y="77.85" width="7.69" height="7.69" fill="#e0c53d" /><rect x="148.46" y="77.85" width="7.69" height="7.69" fill="#e0c53d" /><rect x="156.15" y="77.85" width="7.69" height="7.69" fill="#e0c53d" /><rect x="163.85" y="77.85" width="7.69" height="7.69" fill="#e0c53d" /><rect x="171.54" y="77.85" width="7.69" height="7.69" fill="#e0c53d" /><rect x="179.23" y="77.85" width="7.69" height="7.69" fill="#e0c53d" /><rect x="186.92" y="77.85" width="7.69" height="7.69" fill="#e0c53d" /><rect x="194.62" y="77.85" width="7.69" height="7.69" fill="#c4a921" /><rect x="125.38" y="85.54" width="7.69" height="7.69" fill="#c4a921" /><rect x="133.08" y="85.54" width="7.69" height="7.69" fill="#e0c53d" /><rect x="140.77" y="85.54" width="7.69" height="7.69" fill="#e0c53d" /><rect x="148.46" y="85.54" width="7.69" height="7.69" fill="#e0c53d" /><rect x="156.15" y="85.54" width="7.69" height="7.69" fill="#e0c53d" /><rect x="163.85" y="85.54" width="7.69" height="7.69" fill="#e0c53d" /><rect x="171.54" y="85.54" width="7.69" height="7.69" fill="#e0c53d" /><rect x="179.23" y="85.54" width="7.69" height="7.69" fill="#e0c53d" /><rect x="186.92" y="85.54" width="7.69" height="7.69" fill="#c4a921" /><rect x="202.31" y="85.54" width="7.69" height="7.69" fill="#d4b931" /><rect x="133.08" y="93.23" width="7.69" height="7.69" fill="#c4a921" /><rect x="140.77" y="93.23" width="7.69" height="7.69" fill="#e0c53d" /><rect x="148.46" y="93.23" width="7.69" height="7.69" fill="#e0c53d" /><rect x="156.15" y="93.23" width="7.69" height="7.69" fill="#e0c53d" /><rect x="163.85" y="93.23" width="7.69" height="7.69" fill="#e0c53d" /><rect x="171.54" y="93.23" width="7.69" height="7.69" fill="#e0c53d" /><rect x="179.23" y="93.23" width="7.69" height="7.69" fill="#c4a921" /><rect x="194.62" y="93.23" width="7.69" height="7.69" fill="#d4b931" /><rect x="140.77" y="100.92" width="7.69" height="7.69" fill="#c4a921" /><rect x="148.46" y="100.92" width="7.69" height="7.69" fill="#c4a921" /><rect x="156.15" y="100.92" width="7.69" height="7.69" fill="#c4a921" /><rect x="163.85" y="100.92" width="7.69" height="7.69" fill="#c4a921" /><rect x="171.54" y="100.92" width="7.69" height="7.69" fill="#c4a921" /><rect x="202.31" y="100.92" width="7.69" height="7.69" fill="#d4b931" /><rect x="140.77" y="108.62" width="7.69" height="7.69" fill="#ccb129" /><rect x="171.54" y="108.62" width="7.69" height="7.69" fill="#ccb129" />
+        <circle cx="129.23076923076923" cy="74" r="4.230769230769231" fill="#ff9a9a" opacity="0.35" /><circle cx="190.76923076923075" cy="74" r="4.230769230769231" fill="#ff9a9a" opacity="0.35" />
         
-        <g transform="translate(141.8181818181818,64.9090909090909)">
+        <g transform="translate(144.6153846153846,66.3076923076923)">
           <animate attributeName="transform" attributeType="XML"
       values="scale(1,1);scale(1,1);scale(1,0.1);scale(1,1);scale(1,1)"
       keyTimes="0;0.85;0.9;0.95;1" dur="4s" repeatCount="indefinite" />
           <circle r="3.6" fill="#ffffff" />
           <circle cy="0" r="1.7" fill="#26313f" />
         </g>
-        <g transform="translate(178.18181818181816,64.9090909090909)">
+        <g transform="translate(175.3846153846154,66.3076923076923)">
           <animate attributeName="transform" attributeType="XML"
       values="scale(1,1);scale(1,1);scale(1,0.1);scale(1,1);scale(1,1)"
       keyTimes="0;0.85;0.9;0.95;1" dur="4s" repeatCount="indefinite" />
           <circle r="3.6" fill="#ffffff" />
           <circle cy="0" r="1.7" fill="#26313f" />
         </g>
-        <path d="M 155 91.18181818181819 Q 160 96.18181818181819 165 91.18181818181819" stroke="#3a2e1f" stroke-width="1.4" fill="none" stroke-linecap="round" />
+        <path d="M 154 89.38461538461539 Q 160 97.38461538461539 166 89.38461538461539" stroke="#3a2e1f" stroke-width="1.6" fill="none" stroke-linecap="round" />
       </g>
     </g>
     
     
+      <rect x="160" y="44" width="3" height="3" fill="#ff6b6b" opacity="0">
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.6;1"
+          dur="1.4s" begin="0s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="translate"
+          values="0,0; 40,-10" dur="1.4s" begin="0s" repeatCount="indefinite" />
+      </rect>
+      <rect x="160" y="44" width="3" height="3" fill="#ffd93d" opacity="0">
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.6;1"
+          dur="1.4s" begin="0.15s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="translate"
+          values="0,0; 28.284271247461902,18.2842712474619" dur="1.4s" begin="0.15s" repeatCount="indefinite" />
+      </rect>
+      <rect x="160" y="44" width="3" height="3" fill="#6bcB77" opacity="0">
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.6;1"
+          dur="1.4s" begin="0.3s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="translate"
+          values="0,0; 2.4492935982947065e-15,30" dur="1.4s" begin="0.3s" repeatCount="indefinite" />
+      </rect>
+      <rect x="160" y="44" width="3" height="3" fill="#4d96ff" opacity="0">
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.6;1"
+          dur="1.4s" begin="0.44999999999999996s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="translate"
+          values="0,0; -28.2842712474619,18.284271247461902" dur="1.4s" begin="0.44999999999999996s" repeatCount="indefinite" />
+      </rect>
+      <rect x="160" y="44" width="3" height="3" fill="#ff922b" opacity="0">
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.6;1"
+          dur="1.4s" begin="0s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="translate"
+          values="0,0; -40,-9.999999999999995" dur="1.4s" begin="0s" repeatCount="indefinite" />
+      </rect>
+      <rect x="160" y="44" width="3" height="3" fill="#ff6b6b" opacity="0">
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.6;1"
+          dur="1.4s" begin="0.15s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="translate"
+          values="0,0; -28.28427124746191,-38.2842712474619" dur="1.4s" begin="0.15s" repeatCount="indefinite" />
+      </rect>
+      <rect x="160" y="44" width="3" height="3" fill="#ffd93d" opacity="0">
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.6;1"
+          dur="1.4s" begin="0.3s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="translate"
+          values="0,0; -7.347880794884118e-15,-50" dur="1.4s" begin="0.3s" repeatCount="indefinite" />
+      </rect>
+      <rect x="160" y="44" width="3" height="3" fill="#6bcB77" opacity="0">
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.6;1"
+          dur="1.4s" begin="0.44999999999999996s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="translate"
+          values="0,0; 28.284271247461895,-38.28427124746191" dur="1.4s" begin="0.44999999999999996s" repeatCount="indefinite" />
+      </rect>
+      <circle cx="160" cy="69" r="4" fill="none" stroke="#ffd93d" stroke-width="2" opacity="0">
+        <animate attributeName="r" values="4;55" dur="1.6s" begin="0s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.8;0" dur="1.6s" begin="0s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="160" cy="69" r="4" fill="none" stroke="#ffd93d" stroke-width="2" opacity="0">
+        <animate attributeName="r" values="4;55" dur="1.6s" begin="0.4s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.8;0" dur="1.6s" begin="0.4s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="160" cy="69" r="4" fill="none" stroke="#ffd93d" stroke-width="2" opacity="0">
+        <animate attributeName="r" values="4;55" dur="1.6s" begin="0.8s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.8;0" dur="1.6s" begin="0.8s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="160" cy="69" r="1.6" fill="#fff4c2" opacity="0">
+        <animate attributeName="opacity" values="0;1;0" dur="1.8s" begin="0s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="translate"
+          values="0,0; 46,0" dur="1.8s" begin="0s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="160" cy="69" r="1.6" fill="#fff4c2" opacity="0">
+        <animate attributeName="opacity" values="0;1;0" dur="1.8s" begin="0.18s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="translate"
+          values="0,0; 37.214781741247585,27.038121605453764" dur="1.8s" begin="0.18s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="160" cy="69" r="1.6" fill="#fff4c2" opacity="0">
+        <animate attributeName="opacity" values="0;1;0" dur="1.8s" begin="0.36s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="translate"
+          values="0,0; 14.214781741247583,43.74859974957706" dur="1.8s" begin="0.36s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="160" cy="69" r="1.6" fill="#fff4c2" opacity="0">
+        <animate attributeName="opacity" values="0;1;0" dur="1.8s" begin="0.54s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="translate"
+          values="0,0; -14.214781741247577,43.74859974957707" dur="1.8s" begin="0.54s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="160" cy="69" r="1.6" fill="#fff4c2" opacity="0">
+        <animate attributeName="opacity" values="0;1;0" dur="1.8s" begin="0.72s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="translate"
+          values="0,0; -37.21478174124758,27.03812160545377" dur="1.8s" begin="0.72s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="160" cy="69" r="1.6" fill="#fff4c2" opacity="0">
+        <animate attributeName="opacity" values="0;1;0" dur="1.8s" begin="0s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="translate"
+          values="0,0; -46,5.633375276077825e-15" dur="1.8s" begin="0s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="160" cy="69" r="1.6" fill="#fff4c2" opacity="0">
+        <animate attributeName="opacity" values="0;1;0" dur="1.8s" begin="0.18s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="translate"
+          values="0,0; -37.214781741247585,-27.03812160545376" dur="1.8s" begin="0.18s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="160" cy="69" r="1.6" fill="#fff4c2" opacity="0">
+        <animate attributeName="opacity" values="0;1;0" dur="1.8s" begin="0.36s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="translate"
+          values="0,0; -14.214781741247588,-43.74859974957706" dur="1.8s" begin="0.36s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="160" cy="69" r="1.6" fill="#fff4c2" opacity="0">
+        <animate attributeName="opacity" values="0;1;0" dur="1.8s" begin="0.54s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="translate"
+          values="0,0; 14.214781741247572,-43.74859974957707" dur="1.8s" begin="0.54s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="160" cy="69" r="1.6" fill="#fff4c2" opacity="0">
+        <animate attributeName="opacity" values="0;1;0" dur="1.8s" begin="0.72s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="translate"
+          values="0,0; 37.21478174124758,-27.038121605453775" dur="1.8s" begin="0.72s" repeatCount="indefinite" />
+      </circle>
     
  
     <line x1="12" y1="140" x2="308" y2="140" stroke="#00000014" stroke-width="1" />
  
     <text x="16" y="157" font-family="monospace" font-size="12" font-weight="bold" fill="#3a3f4b">
-      schoolbag-crypto the Sprout
+      schoolbag-crypto the Byte
     </text>
     <text x="16" y="172" font-family="monospace" font-size="9.5" fill="#3a3f4b" opacity="0.85">
-      Active today!
+      Sprout stretches out, grows a tail, and start…
     </text>
     <text x="16" y="188" font-family="monospace" font-size="10" fill="#3a3f4b">
-      🔥3d  ⭐0  📦4  💾49/yr  ·  together 0d
+      🔥3d  ⭐0  📦5  💾53/yr  ·  together 0d
     </text>
     <text x="16" y="202" font-family="monospace" font-size="9" fill="#3a3f4b" opacity="0.85">
       • Night Owl   • JS Enjoyer
