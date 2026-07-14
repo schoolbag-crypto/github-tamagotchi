@@ -1,4 +1,4 @@
-<svg width="320" height="210" viewBox="0 0 320 210" xmlns="http://www.w3.org/2000/svg" role="img">
+<svg width="320" height="216" viewBox="0 0 320 216" xmlns="http://www.w3.org/2000/svg" role="img">
   <title>linus the Cipher — Advanced, missing_you</title>
   <desc>No commits in two weeks. It really misses you.</desc>
   <defs>
@@ -12,12 +12,12 @@
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
     </linearGradient>
     <clipPath id="panelClip">
-      <rect x="0" y="0" width="320" height="210" rx="14" />
+      <rect x="0" y="0" width="320" height="216" rx="14" />
     </clipPath>
   </defs>
 
   <g clip-path="url(#panelClip)">
-    <rect x="0" y="0" width="320" height="210" fill="#eef1fb" />
+    <rect x="0" y="0" width="320" height="216" fill="#eef1fb" />
     
 
     <g>
@@ -67,7 +67,7 @@
       🔥0d  ⭐40  📦12  💾250/yr  ·  together 150d
     </text>
     <text x="16" y="202" font-family="monospace" font-size="9" fill="#3a3f4b" opacity="0.85">
-      <tspan x="16" dy="0">• Explorer</tspan>
+      • Explorer
     </text>
     <text x="252" y="202" font-size="10" fill="#ff6b81">♥</text><text x="263" y="202" font-size="10" fill="#ff6b81">♥</text><text x="274" y="202" font-size="10" fill="#ff6b81">♥</text><text x="285" y="202" font-size="10" fill="#ff6b81">♥</text><text x="296" y="202" font-size="10" fill="#d8dee8">♥</text>
   </g>
