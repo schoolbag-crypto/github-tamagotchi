@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Syntax-check all source files
+        run: |
+          for f in $(find src scripts test -name "*.js"); do
+            node --check "$f"
+          done
+
+      - name: Run unit tests
+        run: npm test
+
+      - name: Regenerate example SVGs (catches renderer regressions)
+        run: npm run examples
+
+      - name: Fail if examples drifted from committed output
+        run: |
+          git diff --exit-code -- examples/ || {
+            echo "::error::examples/*.svg are out of date — run 'npm run examples' and commit the result.";
+            exit 1;
+          }

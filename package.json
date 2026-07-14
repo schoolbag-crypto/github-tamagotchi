@@ -1,0 +1,17 @@
+{
+  "name": "github-tamagotchi",
+  "version": "1.0.0",
+  "description": "A tiny pixel creature that lives in your GitHub README and grows with your coding activity.",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "examples": "node scripts/generate-examples.js",
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}

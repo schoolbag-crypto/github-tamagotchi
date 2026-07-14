@@ -1,0 +1,66 @@
+<svg width="320" height="210" viewBox="0 0 320 210" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>grace the Byte — Growing, sleeping</title>
+  <desc>Fast asleep. No commits in over a week.</desc>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe9a8" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#ffe9a8" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="shinyGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+    <clipPath id="panelClip">
+      <rect x="0" y="0" width="320" height="210" rx="14" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#panelClip)">
+    <rect x="0" y="0" width="320" height="210" fill="#e4e8f2" />
+    
+
+    <g>
+      <g transform="translate(0,0)">
+        <animateTransform attributeName="transform" type="translate"
+      values="0 0; 0 -1; 0 0" dur="2.4s" repeatCount="indefinite" additive="sum" />
+        
+        <rect x="133.08" y="31.69" width="7.69" height="7.69" fill="#7befa6" /><rect x="140.77" y="31.69" width="7.69" height="7.69" fill="#7befa6" /><rect x="148.46" y="31.69" width="7.69" height="7.69" fill="#7befa6" /><rect x="156.15" y="31.69" width="7.69" height="7.69" fill="#7befa6" /><rect x="163.85" y="31.69" width="7.69" height="7.69" fill="#7befa6" /><rect x="171.54" y="31.69" width="7.69" height="7.69" fill="#7befa6" /><rect x="179.23" y="31.69" width="7.69" height="7.69" fill="#7befa6" /><rect x="125.38" y="39.38" width="7.69" height="7.69" fill="#7befa6" /><rect x="133.08" y="39.38" width="7.69" height="7.69" fill="#5fd38a" /><rect x="140.77" y="39.38" width="7.69" height="7.69" fill="#5fd38a" /><rect x="148.46" y="39.38" width="7.69" height="7.69" fill="#5fd38a" /><rect x="156.15" y="39.38" width="7.69" height="7.69" fill="#5fd38a" /><rect x="163.85" y="39.38" width="7.69" height="7.69" fill="#5fd38a" /><rect x="171.54" y="39.38" width="7.69" height="7.69" fill="#5fd38a" /><rect x="179.23" y="39.38" width="7.69" height="7.69" fill="#5fd38a" /><rect x="186.92" y="39.38" width="7.69" height="7.69" fill="#7befa6" /><rect x="125.38" y="47.08" width="7.69" height="7.69" fill="#5fd38a" /><rect x="133.08" y="47.08" width="7.69" height="7.69" fill="#5fd38a" /><rect x="140.77" y="47.08" width="7.69" height="7.69" fill="#5fd38a" /><rect x="148.46" y="47.08" width="7.69" height="7.69" fill="#5fd38a" /><rect x="156.15" y="47.08" width="7.69" height="7.69" fill="#5fd38a" /><rect x="163.85" y="47.08" width="7.69" height="7.69" fill="#5fd38a" /><rect x="171.54" y="47.08" width="7.69" height="7.69" fill="#5fd38a" /><rect x="179.23" y="47.08" width="7.69" height="7.69" fill="#5fd38a" /><rect x="186.92" y="47.08" width="7.69" height="7.69" fill="#5fd38a" /><rect x="117.69" y="54.77" width="7.69" height="7.69" fill="#7befa6" /><rect x="125.38" y="54.77" width="7.69" height="7.69" fill="#5fd38a" /><rect x="133.08" y="54.77" width="7.69" height="7.69" fill="#5fd38a" /><rect x="140.77" y="54.77" width="7.69" height="7.69" fill="#5fd38a" /><rect x="148.46" y="54.77" width="7.69" height="7.69" fill="#5fd38a" /><rect x="156.15" y="54.77" width="7.69" height="7.69" fill="#5fd38a" /><rect x="163.85" y="54.77" width="7.69" height="7.69" fill="#5fd38a" /><rect x="171.54" y="54.77" width="7.69" height="7.69" fill="#5fd38a" /><rect x="179.23" y="54.77" width="7.69" height="7.69" fill="#5fd38a" /><rect x="186.92" y="54.77" width="7.69" height="7.69" fill="#5fd38a" /><rect x="194.62" y="54.77" width="7.69" height="7.69" fill="#7befa6" /><rect x="117.69" y="62.46" width="7.69" height="7.69" fill="#5fd38a" /><rect x="125.38" y="62.46" width="7.69" height="7.69" fill="#5fd38a" /><rect x="133.08" y="62.46" width="7.69" height="7.69" fill="#5fd38a" /><rect x="140.77" y="62.46" width="7.69" height="7.69" fill="#5fd38a" /><rect x="148.46" y="62.46" width="7.69" height="7.69" fill="#5fd38a" /><rect x="156.15" y="62.46" width="7.69" height="7.69" fill="#5fd38a" /><rect x="163.85" y="62.46" width="7.69" height="7.69" fill="#5fd38a" /><rect x="171.54" y="62.46" width="7.69" height="7.69" fill="#5fd38a" /><rect x="179.23" y="62.46" width="7.69" height="7.69" fill="#5fd38a" /><rect x="186.92" y="62.46" width="7.69" height="7.69" fill="#5fd38a" /><rect x="194.62" y="62.46" width="7.69" height="7.69" fill="#5fd38a" /><rect x="117.69" y="70.15" width="7.69" height="7.69" fill="#5fd38a" /><rect x="125.38" y="70.15" width="7.69" height="7.69" fill="#5fd38a" /><rect x="133.08" y="70.15" width="7.69" height="7.69" fill="#5fd38a" /><rect x="140.77" y="70.15" width="7.69" height="7.69" fill="#5fd38a" /><rect x="148.46" y="70.15" width="7.69" height="7.69" fill="#5fd38a" /><rect x="156.15" y="70.15" width="7.69" height="7.69" fill="#5fd38a" /><rect x="163.85" y="70.15" width="7.69" height="7.69" fill="#5fd38a" /><rect x="171.54" y="70.15" width="7.69" height="7.69" fill="#5fd38a" /><rect x="179.23" y="70.15" width="7.69" height="7.69" fill="#5fd38a" /><rect x="186.92" y="70.15" width="7.69" height="7.69" fill="#5fd38a" /><rect x="194.62" y="70.15" width="7.69" height="7.69" fill="#5fd38a" /><rect x="117.69" y="77.85" width="7.69" height="7.69" fill="#43b76e" /><rect x="125.38" y="77.85" width="7.69" height="7.69" fill="#5fd38a" /><rect x="133.08" y="77.85" width="7.69" height="7.69" fill="#5fd38a" /><rect x="140.77" y="77.85" width="7.69" height="7.69" fill="#5fd38a" /><rect x="148.46" y="77.85" width="7.69" height="7.69" fill="#5fd38a" /><rect x="156.15" y="77.85" width="7.69" height="7.69" fill="#5fd38a" /><rect x="163.85" y="77.85" width="7.69" height="7.69" fill="#5fd38a" /><rect x="171.54" y="77.85" width="7.69" height="7.69" fill="#5fd38a" /><rect x="179.23" y="77.85" width="7.69" height="7.69" fill="#5fd38a" /><rect x="186.92" y="77.85" width="7.69" height="7.69" fill="#5fd38a" /><rect x="194.62" y="77.85" width="7.69" height="7.69" fill="#43b76e" /><rect x="125.38" y="85.54" width="7.69" height="7.69" fill="#43b76e" /><rect x="133.08" y="85.54" width="7.69" height="7.69" fill="#5fd38a" /><rect x="140.77" y="85.54" width="7.69" height="7.69" fill="#5fd38a" /><rect x="148.46" y="85.54" width="7.69" height="7.69" fill="#5fd38a" /><rect x="156.15" y="85.54" width="7.69" height="7.69" fill="#5fd38a" /><rect x="163.85" y="85.54" width="7.69" height="7.69" fill="#5fd38a" /><rect x="171.54" y="85.54" width="7.69" height="7.69" fill="#5fd38a" /><rect x="179.23" y="85.54" width="7.69" height="7.69" fill="#5fd38a" /><rect x="186.92" y="85.54" width="7.69" height="7.69" fill="#43b76e" /><rect x="202.31" y="85.54" width="7.69" height="7.69" fill="#53c77e" /><rect x="133.08" y="93.23" width="7.69" height="7.69" fill="#43b76e" /><rect x="140.77" y="93.23" width="7.69" height="7.69" fill="#5fd38a" /><rect x="148.46" y="93.23" width="7.69" height="7.69" fill="#5fd38a" /><rect x="156.15" y="93.23" width="7.69" height="7.69" fill="#5fd38a" /><rect x="163.85" y="93.23" width="7.69" height="7.69" fill="#5fd38a" /><rect x="171.54" y="93.23" width="7.69" height="7.69" fill="#5fd38a" /><rect x="179.23" y="93.23" width="7.69" height="7.69" fill="#43b76e" /><rect x="194.62" y="93.23" width="7.69" height="7.69" fill="#53c77e" /><rect x="140.77" y="100.92" width="7.69" height="7.69" fill="#43b76e" /><rect x="148.46" y="100.92" width="7.69" height="7.69" fill="#43b76e" /><rect x="156.15" y="100.92" width="7.69" height="7.69" fill="#43b76e" /><rect x="163.85" y="100.92" width="7.69" height="7.69" fill="#43b76e" /><rect x="171.54" y="100.92" width="7.69" height="7.69" fill="#43b76e" /><rect x="202.31" y="100.92" width="7.69" height="7.69" fill="#53c77e" /><rect x="140.77" y="108.62" width="7.69" height="7.69" fill="#4bbf76" /><rect x="171.54" y="108.62" width="7.69" height="7.69" fill="#4bbf76" />
+        
+        <line x1="141.6153846153846" y1="66.3076923076923" x2="147.6153846153846" y2="66.3076923076923" stroke="#26313f" stroke-width="1.4" stroke-linecap="round" /><line x1="172.3846153846154" y1="66.3076923076923" x2="178.3846153846154" y2="66.3076923076923" stroke="#26313f" stroke-width="1.4" stroke-linecap="round" />
+        <line x1="156" y1="89.38461538461539" x2="164" y2="89.38461538461539" stroke="#3a2e1f" stroke-width="1.4" stroke-linecap="round" />
+      </g>
+    </g>
+    
+    
+    <g font-family="monospace" font-weight="bold" fill="#8aa3c7">
+      <text x="192" y="32" font-size="10" opacity="0">Z
+        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5;1" dur="3s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="translate"
+          values="0,0; 4,-14" dur="3s" repeatCount="indefinite" />
+      </text>
+      <text x="200" y="26" font-size="8" opacity="0">Z
+        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5;1" dur="3s" begin="0.6s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="translate"
+          values="0,0; 4,-14" dur="3s" begin="0.6s" repeatCount="indefinite" />
+      </text>
+    </g>
+    
+
+    <line x1="12" y1="140" x2="308" y2="140" stroke="#00000014" stroke-width="1" />
+
+    <text x="16" y="157" font-family="monospace" font-size="12" font-weight="bold" fill="#3a3f4b">
+      grace the Byte
+    </text>
+    <text x="16" y="172" font-family="monospace" font-size="9.5" fill="#3a3f4b" opacity="0.85">
+      Fast asleep. No commits in over a week.
+    </text>
+    <text x="16" y="188" font-family="monospace" font-size="10" fill="#3a3f4b">
+      🔥0d  ⭐3  📦6  💾88/yr  ·  together 60d
+    </text>
+    <text x="16" y="202" font-family="monospace" font-size="9" fill="#3a3f4b" opacity="0.85">
+      <tspan x="16" dy="0">• Night Owl</tspan>
+    </text>
+    <text x="252" y="202" font-size="10" fill="#ff6b81">♥</text><text x="263" y="202" font-size="10" fill="#ff6b81">♥</text><text x="274" y="202" font-size="10" fill="#d8dee8">♥</text><text x="285" y="202" font-size="10" fill="#d8dee8">♥</text><text x="296" y="202" font-size="10" fill="#d8dee8">♥</text>
+  </g>
+</svg>

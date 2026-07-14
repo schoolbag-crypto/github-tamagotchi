@@ -1,0 +1,48 @@
+name: "GitHub Tamagotchi"
+description: "A tiny pixel creature that lives in your README and grows with your GitHub activity."
+branding:
+  icon: "heart"
+  color: "green"
+
+inputs:
+  github_token:
+    description: "Token with read access to the target user's public profile (usually secrets.GITHUB_TOKEN)."
+    required: true
+  username:
+    description: "GitHub username whose activity feeds the creature. Defaults to the repo owner."
+    required: false
+    default: ${{ github.repository_owner }}
+  creature_name:
+    description: "Optional name for your creature (shown in the SVG and flavor text)."
+    required: false
+    default: ""
+  output_path:
+    description: "Where to write the generated SVG, relative to the repo root."
+    required: false
+    default: ".github-tamagotchi/creature.svg"
+  state_path:
+    description: "Where to persist run-over-run state (used to detect new stars/repos/level-ups)."
+    required: false
+    default: ".github-tamagotchi/state.json"
+
+runs:
+  using: "composite"
+  steps:
+    - name: Set up Node
+      uses: actions/setup-node@v4
+      with:
+        node-version: "20"
+
+    - name: Install dependencies
+      shell: bash
+      run: npm install --omit=dev --prefix "${{ github.action_path }}"
+
+    - name: Generate creature
+      shell: bash
+      env:
+        GITHUB_TOKEN: ${{ inputs.github_token }}
+        TAMAGOTCHI_USERNAME: ${{ inputs.username }}
+        TAMAGOTCHI_NAME: ${{ inputs.creature_name }}
+        TAMAGOTCHI_OUTPUT_PATH: ${{ inputs.output_path }}
+        TAMAGOTCHI_STATE_PATH: ${{ inputs.state_path }}
+      run: node "${{ github.action_path }}/src/index.js"
