@@ -14,11 +14,11 @@ import {
   badge,
   bondHearts,
 } from "./animations.js";
-
+ 
 const CANVAS_W = 320;
-const CANVAS_H = 210;
+const CANVAS_H = 216;
 const CREATURE_BOX = 100; // px square the sprite grid is scaled to fit
-
+ 
 const STAGE_BODY_COLOR = {
   baby: "#8ee6a0",
   growing: "#5fd38a",
@@ -35,7 +35,7 @@ const LANGUAGE_TINT = {
   cpp_wizard: "#659ad2",
   rubyist: "#cc5a52",
 };
-
+ 
 const MOOD_PANEL_COLOR = {
   idle: "#f4f9ff",
   celebrating: "#fff8e6",
@@ -46,9 +46,9 @@ const MOOD_PANEL_COLOR = {
   missing_you: "#eef1fb",
   glitch: "#17171c",
 };
-
+ 
 const SHINY_PALETTE = ["#ff9ecf", "#ffd93d", "#8ee6a0", "#7fc7ff", "#c99bff"];
-
+ 
 function hexToRgb(hex) {
   const n = parseInt(hex.replace("#", ""), 16);
   return [(n >> 16) & 255, (n >> 8) & 255, n & 255];
@@ -60,7 +60,7 @@ function shade(hex, amount) {
   const [r, g, b] = hexToRgb(hex);
   return rgbToHex([r + amount, g + amount, b + amount]);
 }
-
+ 
 function buildBodyPixels(grid, cellPx, offsetX, offsetY, palette) {
   let rects = "";
   for (let row = 0; row < grid.length; row++) {
@@ -75,7 +75,7 @@ function buildBodyPixels(grid, cellPx, offsetX, offsetY, palette) {
   }
   return rects;
 }
-
+ 
 function buildMouth(mood, cx, cy) {
   switch (mood) {
     case "celebrating":
@@ -93,7 +93,7 @@ function buildMouth(mood, cx, cy) {
       return `<path d="M ${cx - 5} ${cy - 1} Q ${cx} ${cy + 4} ${cx + 5} ${cy - 1}" stroke="#3a2e1f" stroke-width="1.4" fill="none" stroke-linecap="round" />`;
   }
 }
-
+ 
 function buildEyes(mood, eyeCoords, cellPx, offsetX, offsetY) {
   const closed = mood === "sleeping";
   const droopy = mood === "missing_you" || mood === "sleepy";
@@ -115,7 +115,7 @@ function buildEyes(mood, eyeCoords, cellPx, offsetX, offsetY) {
   }
   return markup;
 }
-
+ 
 function buildBlush(cheekCoords, cellPx, offsetX, offsetY) {
   return cheekCoords
     .map(([row, col]) => {
@@ -125,7 +125,7 @@ function buildBlush(cheekCoords, cellPx, offsetX, offsetY) {
     })
     .join("");
 }
-
+ 
 function buildMoodOverlay(mood, cx, boxTop) {
   switch (mood) {
     case "celebrating":
@@ -142,13 +142,18 @@ function buildMoodOverlay(mood, cx, boxTop) {
       return "";
   }
 }
-
+ 
 function escapeXml(str) {
   return String(str).replace(/[<>&'"]/g, (c) => ({
     "<": "&lt;", ">": "&gt;", "&": "&amp;", "'": "&apos;", '"': "&quot;",
   }[c]));
 }
-
+ 
+function truncate(str, max) {
+  const s = String(str);
+  return s.length > max ? s.slice(0, max - 1) + "…" : s;
+}
+ 
 /**
  * @param {object} state - output of buildCreatureState()
  * @param {string} username
@@ -160,11 +165,11 @@ export function buildSVG(state, username) {
   const gridPx = cellPx * sprite.size;
   const offsetX = (CANVAS_W - gridPx) / 2;
   const offsetY = 24;
-
+ 
   const langTrait = traits.find((t) => LANGUAGE_TINT[t.id]);
   const baseColor = langTrait ? LANGUAGE_TINT[langTrait.id] : STAGE_BODY_COLOR[stage];
   const bodyColor = shiny ? SHINY_PALETTE[Math.abs(hashCode(username)) % SHINY_PALETTE.length] : baseColor;
-
+ 
   const palette = {
     1: bodyColor,
     2: "#dfe9f7", // wing
@@ -176,10 +181,10 @@ export function buildSVG(state, username) {
     8: shade(bodyColor, -18), // cape
     9: shade(bodyColor, -20), // foot
   };
-
+ 
   const panelColor = MOOD_PANEL_COLOR[mood] ?? "#f4f9ff";
   const textColor = mood === "glitch" ? "#e8e8ea" : "#3a3f4b";
-
+ 
   const bodyPixels = buildBodyPixels(sprite.grid, cellPx, offsetX, offsetY, palette);
   const mouthCx = offsetX + sprite.mouth[1] * cellPx + cellPx / 2;
   const mouthCy = offsetY + sprite.mouth[0] * cellPx + cellPx / 2;
@@ -189,43 +194,43 @@ export function buildSVG(state, username) {
     ? buildBlush(sprite.cheeks, cellPx, offsetX, offsetY)
     : "";
   const overlay = buildMoodOverlay(mood, CANVAS_W / 2, offsetY);
-
+ 
   const bounceAmplitude = mood === "sleeping" || mood === "sleepy" || mood === "missing_you" ? 1 : 2.2;
   const bodyGroupTransform =
     mood === "celebrating" || mood === "proud" ? celebrationBounceAnimation() : idleBounceAnimation(bounceAmplitude);
-
+ 
   const shinyOverlay = shiny ? shinyShimmer(CANVAS_W / 2, offsetY + gridPx / 2, gridPx * 1.4) : "";
-
+ 
   const legendaryGlow = stage === "legendary"
     ? `<circle cx="${CANVAS_W / 2}" cy="${offsetY + gridPx / 2}" r="${gridPx * 0.68}" fill="url(#glow)" opacity="0.5" />`
     : "";
-
+ 
   const glitchOpen = mood === "glitch" ? glitchWrapperOpen() : "<g>";
   const glitchClose = mood === "glitch" ? glitchWrapperClose() : "</g>";
   const glitchGhosts = mood === "glitch"
     ? `<g opacity="0.4" fill="#ff2d55" transform="translate(-2,0)">${bodyPixels}</g>
        <g opacity="0.4" fill="#4dd9ff" transform="translate(2,0)">${bodyPixels}</g>`
     : "";
-
+ 
   // --- Header line: name (or username) + form name + shiny sparkle marker ---
-  const displayName = name || username;
+  const displayName = truncate(name || username, 20);
   const shinyMark = shiny ? " ✦" : "";
   const headerLine = `${escapeXml(displayName)} the ${escapeXml(formName)}${shinyMark}`;
-
+ 
   // --- Footer flavor line: evolution ceremony quote takes priority, then
   // mood reason, so a level-up always gets its moment. ---
-  const flavorLine = event === "leveled_up" && evolveQuote ? evolveQuote : moodReason;
-
+  const flavorLine = truncate(event === "leveled_up" && evolveQuote ? evolveQuote : moodReason, 46);
+ 
   const traitChips = traits
     .slice(0, 3)
-    .map((t, i) => `<tspan x="16" dy="${i === 0 ? 0 : 12}">• ${escapeXml(t.label)}</tspan>`)
-    .join("");
-
+    .map((t) => `• ${escapeXml(t.label)}`)
+    .join("   ");
+ 
   // --- Small badges: seasonal accessory + milestone ribbon, stacked top-right ---
   let badges = "";
   if (seasonal) badges += badge(CANVAS_W - 24, offsetY + 14, seasonal.label, 16);
   if (milestone) badges += badge(CANVAS_W - 24, offsetY + 38, "🎊", 14);
-
+ 
   return `<svg width="${CANVAS_W}" height="${CANVAS_H}" viewBox="0 0 ${CANVAS_W} ${CANVAS_H}" xmlns="http://www.w3.org/2000/svg" role="img">
   <title>${escapeXml(headerLine)} — ${escapeXml(state.stageLabel)}, ${escapeXml(mood)}</title>
   <desc>${escapeXml(flavorLine)}</desc>
@@ -243,11 +248,11 @@ export function buildSVG(state, username) {
       <rect x="0" y="0" width="${CANVAS_W}" height="${CANVAS_H}" rx="14" />
     </clipPath>
   </defs>
-
+ 
   <g clip-path="url(#panelClip)">
     <rect x="0" y="0" width="${CANVAS_W}" height="${CANVAS_H}" fill="${panelColor}" />
     ${legendaryGlow}
-
+ 
     ${glitchOpen}
       <g transform="translate(0,0)">
         ${bodyGroupTransform}
@@ -261,9 +266,9 @@ export function buildSVG(state, username) {
     ${shinyOverlay}
     ${overlay}
     ${badges}
-
+ 
     <line x1="12" y1="140" x2="${CANVAS_W - 12}" y2="140" stroke="#00000014" stroke-width="1" />
-
+ 
     <text x="16" y="157" font-family="monospace" font-size="12" font-weight="bold" fill="${textColor}">
       ${headerLine}
     </text>
@@ -274,13 +279,13 @@ export function buildSVG(state, username) {
       🔥${stats.currentStreak}d  ⭐${stats.totalStars}  📦${stats.totalRepos}  💾${stats.totalContributions}/yr  ·  together ${daysTogether}d
     </text>
     <text x="16" y="202" font-family="monospace" font-size="9" fill="${textColor}" opacity="0.85">
-      ${traitChips || `<tspan x="16" dy="0">Keep coding to unlock traits...</tspan>`}
+      ${traitChips || "Keep coding to unlock traits..."}
     </text>
     ${bondHearts(CANVAS_W - 68, 202, bondLevel)}
   </g>
 </svg>`;
 }
-
+ 
 function hashCode(str) {
   let h = 0;
   for (let i = 0; i < str.length; i++) h = (h * 31 + str.charCodeAt(i)) | 0;
