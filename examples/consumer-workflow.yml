@@ -22,7 +22,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Grow the creature
-        uses: your-username/github-tamagotchi@v1
+        uses: schoolbag-crypto/github-tamagotchi@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           # username: your-github-username   # optional, defaults to repo owner
