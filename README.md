@@ -1,12 +1,10 @@
 # 🐣 GitHub Tamagotchi
 
-A tiny pixel creature that lives on your GitHub profile and actually
-reacts to your coding — it grows up, gets excited when you get a star,
+A tiny pixel companion that lives on your GitHub profile and reacts to the way you code. It grows up, gets excited when you get a star,
 and gets visibly sad if you disappear for two weeks. Think Tamagotchi,
 but it's fed by your commits instead of button presses.
 
 No app to install, no account to create, no server running anywhere.
-Just a picture that updates itself.
 
 <table>
 <tr>
@@ -38,12 +36,12 @@ Just a picture that updates itself.
 
 ## Get one on your own profile in 3 steps
 
-You don't need to know how to code for this part. Just copying and
+Just copying and
 pasting.
 
 ### 1. Add the workflow file to your own repo
 
-Every GitHub account has a special repo — the one named exactly the
+Every GitHub account has a special repo, the one named exactly the
 same as your username (e.g. `github.com/yourname/yourname`). Its
 `README.md` is what shows up on your profile page. If you don't have one
 yet, create a new repo with that exact name and tick "Add a README file."
@@ -55,7 +53,7 @@ Inside that repo, create a new file at this exact path:
 ```
 
 (On GitHub's website: **Add file → Create new file**, then type that
-whole path into the name box — it'll make the folders for you.)
+whole path into the name box and it'll make the folders for you.)
 
 Paste this into it:
 
@@ -115,15 +113,14 @@ Add this line anywhere in your `README.md`:
 ```
 
 Now go to **Actions** tab → **Update GitHub Tamagotchi** → **Run
-workflow**, wait about 30 seconds, and refresh your profile page. Your
+workflow**, and refresh your profile page. Your
 creature is alive. 🎉
 
-From here it updates itself automatically — every 6 hours, and right
-after you push code — with zero further effort from you.
+From here it updates itself automatically every 6 hours with zero further effort from you.
 
 ---
 
-## What it actually does, and why
+## What it actually does
 
 Everything below exists to make it feel less like a stats badge and
 more like a small pet you'd actually want to check on.
@@ -136,8 +133,6 @@ sprouts horns and wings, Nova gets a cape and crown. Evolution is based
 on your contributions over the last 12 months, so it stays achievable
 whether you're brand new or have been coding for a decade.
 
-**Why:** leveling up should feel like a small story beat, not a progress
-bar filling up.
 
 ### 😊 Moods — it has feelings, sort of
 
@@ -147,8 +142,6 @@ The longer you go without committing, the sadder it gets — starting
 gentle (a little drowsy) and ending dramatic (a flickering, "are you
 still there?" glitch after 30+ days).
 
-**Why:** one blunt "active/inactive" flag isn't very charming. A slow,
-readable decay is.
 
 ### 🎉 Reactions — it notices things
 
@@ -156,8 +149,6 @@ New star on a repo, a new project, beating your own streak record,
 leveling up, even its own little "adoption anniversary" once a year —
 each one gets its own celebration animation.
 
-**Why:** specific good moments deserve a specific reaction, not just a
-generic "stats went up."
 
 ### 🎨 Personality traits
 
@@ -166,7 +157,6 @@ Based on your actual habits: **Night Owl** (codes late), **Pythonista** /
 streak), **Social Butterfly** (100+ stars), **Explorer** (20+ repos).
 These also tint your creature's color.
 
-**Why:** makes it feel like *your* creature, not a template.
 
 ### ❤️ Attachment — the part that's just for fun
 
@@ -177,8 +167,6 @@ These also tint your creature's color.
   own.
 - You can **name it**.
 
-**Why:** the whole point of a Tamagotchi is caring about it as a thing,
-not just reading numbers off it.
 
 ### ✨ Easter eggs
 
@@ -187,8 +175,6 @@ not just reading numbers off it.
 - Hit a "nice" number like 1337 or 2026 total contributions, get a badge.
 - Real-world dates matter: expect a pumpkin in late October, a Santa hat
   in December, a party hat on New Year's.
-
-**Why:** small surprises are worth checking back for.
 
 ---
 
@@ -203,31 +189,6 @@ Only the token is required — everything else is optional:
 | `creature_name` | *(none)* | Give your creature a name |
 | `output_path` | `.github-tamagotchi/creature.svg` | Where the picture is saved |
 | `state_path` | `.github-tamagotchi/state.json` | Where its "memory" is saved |
-
----
-
-## Troubleshooting
-
-Real issues people hit, and the fix:
-
-**Image shows a broken icon / 404 error:**
-Check the Actions tab first — if there's no successful (green ✅) run,
-the picture file was never created. Fix whatever's failing there before
-worrying about the README link itself.
-
-**Workflow fails on the "commit" step with something about `.gitignore`:**
-If you're running this directly (not through the packaged Action), make
-sure `.github-tamagotchi/` isn't listed in your `.gitignore` file — that
-file is meant for local development only, not for a live profile setup.
-
-**Workflow fails immediately, no useful error:**
-Almost always missing permissions — double check **Settings → Actions →
-General → Workflow permissions → Read and write permissions** is turned
-on and saved.
-
-**Nothing updates even though it worked once:**
-It only refreshes every 6 hours by default (to save on Action minutes).
-That's expected — it's not broken, just patient.
 
 ---
 
@@ -254,7 +215,7 @@ examples/       Sample creatures + the copy-paste workflow template
 docs/           Architecture notes
 ```
 
-## Limitations (on purpose)
+## Limitations
 
 - Reacts on a schedule (every 6 hours by default), not the literal instant
   something happens.
