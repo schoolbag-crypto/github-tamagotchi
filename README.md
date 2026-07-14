@@ -60,14 +60,16 @@ whole path into the name box — it'll make the folders for you.)
 Paste this into it:
 
 ```yaml
+
+
 name: Update GitHub Tamagotchi
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # refresh every 6 hours
+    - cron: "0 */6 * * *"   # refresh every 6 hours (mood decays over time)
   push:
     branches: [main]         # refresh right after you push commits
-  workflow_dispatch: {}      # lets you trigger it manually too
+  workflow_dispatch: {}      # allows manual "Run workflow" from the Actions tab
 
 permissions:
   contents: write
@@ -83,7 +85,15 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           # username: your-github-username   # optional, defaults to repo owner
-          # creature_name: Pixel             # optional, name your creature
+          # creature_name: Pixel             # optional, give it a name
+
+      - name: Commit updated creature
+        run: |
+          git config user.name "github-tamagotchi[bot]"
+          git config user.email "actions@github.com"
+          git add .github-tamagotchi/
+          git diff --staged --quiet || git commit -m "chore: update tamagotchi 🐣"
+          git push
 ```
 
 Commit it.
