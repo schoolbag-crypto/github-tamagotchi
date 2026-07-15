@@ -1,4 +1,4 @@
-# 🐣 GitHub Tamagotchi
+# GitHub Tamagotchi
 
 A tiny pixel companion that lives on your GitHub profile and reacts to the way you code. It grows up, gets excited when you get a star,
 and gets visibly sad if you disappear for two weeks. Think Tamagotchi,
