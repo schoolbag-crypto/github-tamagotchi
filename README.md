@@ -35,8 +35,7 @@ but it's fed by your commits instead of button presses.
 
 ## Get one on your own profile in 3 steps
 
-Just copying and
-pasting.
+
 
 ### 1. Add the workflow file to your own repo
 
