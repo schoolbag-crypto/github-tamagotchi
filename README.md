@@ -180,7 +180,7 @@ These also tint your creature's color.
 
 ## Configuration
 
-Only the token is required — everything else is optional:
+Only the token is required, everything else is optional:
 
 | Input | Default | What it does |
 |---|---|---|
