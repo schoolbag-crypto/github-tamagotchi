@@ -1,6 +1,6 @@
 <svg width="320" height="216" viewBox="0 0 320 216" xmlns="http://www.w3.org/2000/svg" role="img">
-  <title>schoolbag-crypto the Byte — Growing, idle</title>
-  <desc>Active today!</desc>
+  <title>schoolbag-crypto the Byte — Growing, thinking</title>
+  <desc>Wondering when the next commit is coming.</desc>
   <defs>
     <radialGradient id="glow" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#ffe9a8" stop-opacity="0.9" />
@@ -17,7 +17,7 @@
   </defs>
  
   <g clip-path="url(#panelClip)">
-    <rect x="0" y="0" width="320" height="216" fill="#f4f9ff" />
+    <rect x="0" y="0" width="320" height="216" fill="#f2f5fb" />
     
  
     <g>
@@ -26,7 +26,7 @@
       values="0 0; 0 -2.2; 0 0" dur="2.4s" repeatCount="indefinite" additive="sum" />
         
         <rect x="133.08" y="31.69" width="7.69" height="7.69" fill="#fce159" /><rect x="140.77" y="31.69" width="7.69" height="7.69" fill="#fce159" /><rect x="148.46" y="31.69" width="7.69" height="7.69" fill="#fce159" /><rect x="156.15" y="31.69" width="7.69" height="7.69" fill="#fce159" /><rect x="163.85" y="31.69" width="7.69" height="7.69" fill="#fce159" /><rect x="171.54" y="31.69" width="7.69" height="7.69" fill="#fce159" /><rect x="179.23" y="31.69" width="7.69" height="7.69" fill="#fce159" /><rect x="125.38" y="39.38" width="7.69" height="7.69" fill="#fce159" /><rect x="133.08" y="39.38" width="7.69" height="7.69" fill="#e0c53d" /><rect x="140.77" y="39.38" width="7.69" height="7.69" fill="#e0c53d" /><rect x="148.46" y="39.38" width="7.69" height="7.69" fill="#e0c53d" /><rect x="156.15" y="39.38" width="7.69" height="7.69" fill="#e0c53d" /><rect x="163.85" y="39.38" width="7.69" height="7.69" fill="#e0c53d" /><rect x="171.54" y="39.38" width="7.69" height="7.69" fill="#e0c53d" /><rect x="179.23" y="39.38" width="7.69" height="7.69" fill="#e0c53d" /><rect x="186.92" y="39.38" width="7.69" height="7.69" fill="#fce159" /><rect x="125.38" y="47.08" width="7.69" height="7.69" fill="#e0c53d" /><rect x="133.08" y="47.08" width="7.69" height="7.69" fill="#e0c53d" /><rect x="140.77" y="47.08" width="7.69" height="7.69" fill="#e0c53d" /><rect x="148.46" y="47.08" width="7.69" height="7.69" fill="#e0c53d" /><rect x="156.15" y="47.08" width="7.69" height="7.69" fill="#e0c53d" /><rect x="163.85" y="47.08" width="7.69" height="7.69" fill="#e0c53d" /><rect x="171.54" y="47.08" width="7.69" height="7.69" fill="#e0c53d" /><rect x="179.23" y="47.08" width="7.69" height="7.69" fill="#e0c53d" /><rect x="186.92" y="47.08" width="7.69" height="7.69" fill="#e0c53d" /><rect x="117.69" y="54.77" width="7.69" height="7.69" fill="#fce159" /><rect x="125.38" y="54.77" width="7.69" height="7.69" fill="#e0c53d" /><rect x="133.08" y="54.77" width="7.69" height="7.69" fill="#e0c53d" /><rect x="140.77" y="54.77" width="7.69" height="7.69" fill="#e0c53d" /><rect x="148.46" y="54.77" width="7.69" height="7.69" fill="#e0c53d" /><rect x="156.15" y="54.77" width="7.69" height="7.69" fill="#e0c53d" /><rect x="163.85" y="54.77" width="7.69" height="7.69" fill="#e0c53d" /><rect x="171.54" y="54.77" width="7.69" height="7.69" fill="#e0c53d" /><rect x="179.23" y="54.77" width="7.69" height="7.69" fill="#e0c53d" /><rect x="186.92" y="54.77" width="7.69" height="7.69" fill="#e0c53d" /><rect x="194.62" y="54.77" width="7.69" height="7.69" fill="#fce159" /><rect x="117.69" y="62.46" width="7.69" height="7.69" fill="#e0c53d" /><rect x="125.38" y="62.46" width="7.69" height="7.69" fill="#e0c53d" /><rect x="133.08" y="62.46" width="7.69" height="7.69" fill="#e0c53d" /><rect x="140.77" y="62.46" width="7.69" height="7.69" fill="#e0c53d" /><rect x="148.46" y="62.46" width="7.69" height="7.69" fill="#e0c53d" /><rect x="156.15" y="62.46" width="7.69" height="7.69" fill="#e0c53d" /><rect x="163.85" y="62.46" width="7.69" height="7.69" fill="#e0c53d" /><rect x="171.54" y="62.46" width="7.69" height="7.69" fill="#e0c53d" /><rect x="179.23" y="62.46" width="7.69" height="7.69" fill="#e0c53d" /><rect x="186.92" y="62.46" width="7.69" height="7.69" fill="#e0c53d" /><rect x="194.62" y="62.46" width="7.69" height="7.69" fill="#e0c53d" /><rect x="117.69" y="70.15" width="7.69" height="7.69" fill="#e0c53d" /><rect x="125.38" y="70.15" width="7.69" height="7.69" fill="#e0c53d" /><rect x="133.08" y="70.15" width="7.69" height="7.69" fill="#e0c53d" /><rect x="140.77" y="70.15" width="7.69" height="7.69" fill="#e0c53d" /><rect x="148.46" y="70.15" width="7.69" height="7.69" fill="#e0c53d" /><rect x="156.15" y="70.15" width="7.69" height="7.69" fill="#e0c53d" /><rect x="163.85" y="70.15" width="7.69" height="7.69" fill="#e0c53d" /><rect x="171.54" y="70.15" width="7.69" height="7.69" fill="#e0c53d" /><rect x="179.23" y="70.15" width="7.69" height="7.69" fill="#e0c53d" /><rect x="186.92" y="70.15" width="7.69" height="7.69" fill="#e0c53d" /><rect x="194.62" y="70.15" width="7.69" height="7.69" fill="#e0c53d" /><rect x="117.69" y="77.85" width="7.69" height="7.69" fill="#c4a921" /><rect x="125.38" y="77.85" width="7.69" height="7.69" fill="#e0c53d" /><rect x="133.08" y="77.85" width="7.69" height="7.69" fill="#e0c53d" /><rect x="140.77" y="77.85" width="7.69" height="7.69" fill="#e0c53d" /><rect x="148.46" y="77.85" width="7.69" height="7.69" fill="#e0c53d" /><rect x="156.15" y="77.85" width="7.69" height="7.69" fill="#e0c53d" /><rect x="163.85" y="77.85" width="7.69" height="7.69" fill="#e0c53d" /><rect x="171.54" y="77.85" width="7.69" height="7.69" fill="#e0c53d" /><rect x="179.23" y="77.85" width="7.69" height="7.69" fill="#e0c53d" /><rect x="186.92" y="77.85" width="7.69" height="7.69" fill="#e0c53d" /><rect x="194.62" y="77.85" width="7.69" height="7.69" fill="#c4a921" /><rect x="125.38" y="85.54" width="7.69" height="7.69" fill="#c4a921" /><rect x="133.08" y="85.54" width="7.69" height="7.69" fill="#e0c53d" /><rect x="140.77" y="85.54" width="7.69" height="7.69" fill="#e0c53d" /><rect x="148.46" y="85.54" width="7.69" height="7.69" fill="#e0c53d" /><rect x="156.15" y="85.54" width="7.69" height="7.69" fill="#e0c53d" /><rect x="163.85" y="85.54" width="7.69" height="7.69" fill="#e0c53d" /><rect x="171.54" y="85.54" width="7.69" height="7.69" fill="#e0c53d" /><rect x="179.23" y="85.54" width="7.69" height="7.69" fill="#e0c53d" /><rect x="186.92" y="85.54" width="7.69" height="7.69" fill="#c4a921" /><rect x="202.31" y="85.54" width="7.69" height="7.69" fill="#d4b931" /><rect x="133.08" y="93.23" width="7.69" height="7.69" fill="#c4a921" /><rect x="140.77" y="93.23" width="7.69" height="7.69" fill="#e0c53d" /><rect x="148.46" y="93.23" width="7.69" height="7.69" fill="#e0c53d" /><rect x="156.15" y="93.23" width="7.69" height="7.69" fill="#e0c53d" /><rect x="163.85" y="93.23" width="7.69" height="7.69" fill="#e0c53d" /><rect x="171.54" y="93.23" width="7.69" height="7.69" fill="#e0c53d" /><rect x="179.23" y="93.23" width="7.69" height="7.69" fill="#c4a921" /><rect x="194.62" y="93.23" width="7.69" height="7.69" fill="#d4b931" /><rect x="140.77" y="100.92" width="7.69" height="7.69" fill="#c4a921" /><rect x="148.46" y="100.92" width="7.69" height="7.69" fill="#c4a921" /><rect x="156.15" y="100.92" width="7.69" height="7.69" fill="#c4a921" /><rect x="163.85" y="100.92" width="7.69" height="7.69" fill="#c4a921" /><rect x="171.54" y="100.92" width="7.69" height="7.69" fill="#c4a921" /><rect x="202.31" y="100.92" width="7.69" height="7.69" fill="#d4b931" /><rect x="140.77" y="108.62" width="7.69" height="7.69" fill="#ccb129" /><rect x="171.54" y="108.62" width="7.69" height="7.69" fill="#ccb129" />
-        <circle cx="129.23076923076923" cy="74" r="4.230769230769231" fill="#ff9a9a" opacity="0.35" /><circle cx="190.76923076923075" cy="74" r="4.230769230769231" fill="#ff9a9a" opacity="0.35" />
+        
         
         <g transform="translate(144.6153846153846,66.3076923076923)">
           <animate attributeName="transform" attributeType="XML"
@@ -47,6 +47,15 @@
     </g>
     
     
+    <g>
+      <circle cx="198" cy="36" r="9" fill="#ffffff" stroke="#c7d2e0" stroke-width="1" opacity="0">
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.8;1" dur="2.6s" repeatCount="indefinite" />
+      </circle>
+      <text x="198" y="40" font-family="monospace" font-weight="bold" font-size="11"
+        text-anchor="middle" fill="#5c6f8a" opacity="0">?
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.8;1" dur="2.6s" repeatCount="indefinite" />
+      </text>
+    </g>
     
  
     <line x1="12" y1="140" x2="308" y2="140" stroke="#00000014" stroke-width="1" />
@@ -55,10 +64,10 @@
       schoolbag-crypto the Byte
     </text>
     <text x="16" y="172" font-family="monospace" font-size="9.5" fill="#3a3f4b" opacity="0.85">
-      Active today!
+      Wondering when the next commit is coming.
     </text>
     <text x="16" y="188" font-family="monospace" font-size="10" fill="#3a3f4b">
-      🔥3d  ⭐0  📦2  💾56/yr  ·  together 0d
+      🔥3d  ⭐0  📦2  💾56/yr  ·  together 1d
     </text>
     <text x="16" y="202" font-family="monospace" font-size="9" fill="#3a3f4b" opacity="0.85">
       • Night Owl   • JS Enjoyer
