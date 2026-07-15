@@ -4,6 +4,7 @@ A tiny pixel companion that lives on your GitHub profile and reacts to the way y
 and gets visibly sad if you disappear for two weeks. Think Tamagotchi,
 but it's fed by your commits instead of button presses.
 
+
 <table>
 <tr>
 <td><img src="examples/baby-idle.svg" width="240" alt="Sprout, idle" /></td>
