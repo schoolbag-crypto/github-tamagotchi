@@ -144,7 +144,7 @@ still there?" glitch after 30+ days).
 ### 🎉 Reactions — it notices things
 
 New star on a repo, a new project, beating your own streak record,
-leveling up, even its own little "adoption anniversary" once a year —
+leveling up, even its own little "adoption anniversary" once a year,
 each one gets its own celebration animation.
 
 
@@ -168,11 +168,9 @@ These also tint your creature's color.
 
 ### ✨ Easter eggs
 
-- About **1 in 64 creatures is secretly shiny** — a permanent rare
+- About **1 in 64 creatures is secretly shiny** , a permanent rare
   color, decided the moment you first run it, forever.
 - Hit a "nice" number like 1337 or 2026 total contributions, get a badge.
-- Real-world dates matter: expect a pumpkin in late October, a Santa hat
-  in December, a party hat on New Year's.
 
 ---
 
@@ -217,7 +215,7 @@ docs/           Architecture notes
 
 - Reacts on a schedule (every 6 hours by default), not the literal instant
   something happens.
-- One creature per person, not per repo — it's a pet, not a zoo.
+- One creature per person, not per repo, since it's a pet, not a zoo.
 - "Night owl" detection uses UTC time from recent activity, not your
   actual timezone.
 
