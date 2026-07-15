@@ -128,7 +128,7 @@ more like a small pet you'd actually want to check on.
 ### 🥚 Evolution — Sprout → Byte → Cipher → Nova
 
 Your creature isn't "level 3." It's a named form, and each one *looks*
-different — Sprout is a round blob, Byte grows a tail and ears, Cipher
+different. Sprout is a round blob, Byte grows a tail and ears, Cipher
 sprouts horns and wings, Nova gets a cape and crown. Evolution is based
 on your contributions over the last 12 months, so it stays achievable
 whether you're brand new or have been coding for a decade.
@@ -138,7 +138,7 @@ whether you're brand new or have been coding for a decade.
 
 `idle → thinking → sleepy → sleeping → missing you → glitch`
 
-The longer you go without committing, the sadder it gets — starting
+The longer you go without committing, the sadder it gets... starting
 gentle (a little drowsy) and ending dramatic (a flickering, "are you
 still there?" glitch after 30+ days).
 
@@ -160,7 +160,7 @@ These also tint your creature's color.
 
 ### ❤️ Attachment — the part that's just for fun
 
-- It remembers the day you "adopted" it, forever — shown as "together
+- It remembers the day you "adopted" it forever, shown as "together
   N days."
 - A **bond meter** (♥1–5) grows every single time it checks in on you,
   regardless of whether you coded that day. Showing up matters on its
