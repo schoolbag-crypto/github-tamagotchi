@@ -52,6 +52,10 @@
     
     
     
+    <text x="296" y="38" font-size="16" text-anchor="middle">🎃
+      <animateTransform attributeName="transform" type="scale" additive="sum"
+        values="1;1.15;1" dur="1.6s" repeatCount="indefinite" />
+    </text>
  
     <line x1="12" y1="140" x2="308" y2="140" stroke="#00000014" stroke-width="1" />
  
